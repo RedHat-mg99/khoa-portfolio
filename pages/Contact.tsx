@@ -141,7 +141,7 @@ const Contact: React.FC = () => {
                   value={formData.jobPosition}
                   onChange={handleChange}
                   className="w-full px-5 py-4 bg-slate-50 border-2 border-transparent rounded-2xl outline-none transition-all focus:bg-white focus:border-blue-500"
-                  placeholder="CTO / Product Manager"
+                  placeholder="Software Tester / QA Engineer"
                 />
               </div>
               <div className="space-y-2">
