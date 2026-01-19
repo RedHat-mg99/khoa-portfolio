@@ -20,7 +20,7 @@ const Navbar: React.FC = () => {
   const toggleMusic = () => {
     if (!audioRef.current) {
       // Using a soft, professional ambient track suitable for a portfolio
-      audioRef.current = new Audio('/audio/Mermaid-Rhapsody.mp3');
+      audioRef.current = new Audio('./audio/Mermaid-Rhapsody.mp3');
       audioRef.current.loop = true;
       audioRef.current.volume = 0.2; // Lower volume for non-intrusive background
     }
