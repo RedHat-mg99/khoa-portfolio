@@ -46,7 +46,7 @@ const Home: React.FC = () => {
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               <div className="relative bg-white p-4 rounded-3xl shadow-2xl">
                 <img
-                  src="/assets/home/PVCKhoa-personal-cs1.jpg"
+                  src="./assets/home/PVCKhoa-personal-cs1.jpg"
                   alt="{PERSONAL_INFO.fullName} Profile"
                   className="rounded-2xl w-full h-auto object-cover aspect-square"
                 />
