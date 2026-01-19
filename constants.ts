@@ -7,7 +7,7 @@ export const PERSONAL_INFO = {
   tagline: "Bridging Quality Assurance and Strategic Product Delivery",
   email: "chanhkhoa102@gmail.com",
   phone: "(+84) 0384-958-259",
-  linkedin: "www.linkedin.com/in/pvckhoa",
+  linkedin: "https://www.linkedin.com/in/pvckhoa",
   github: "https://github.com/RedHat-mg99",
   summary: "Detail-oriented Tester professional with 4+ years of experience in manual and automated testing. Passionate about ensuring high-quality user experiences and moving towards a Product Delivery Manager role to oversee end-to-end project lifecycles and process optimization."
 };
