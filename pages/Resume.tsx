@@ -5,7 +5,7 @@ import { EXPERIENCES, PROJECTS } from '../constants';
 const Resume: React.FC = () => {
   const handleDownloadCV = () => {
     const link = document.createElement('a');
-    link.href = '/assets/resume/Resume_Phan-Vong-Chanh-Khoa.pdf'; // This path is my actual PDF file
+    link.href = './assets/resume/Resume_Phan-Vong-Chanh-Khoa.pdf'; // This path is my actual PDF file
     link.download = 'Resume_Phan-Vong-Chanh-Khoa.pdf';
     document.body.appendChild(link);
     link.click();
